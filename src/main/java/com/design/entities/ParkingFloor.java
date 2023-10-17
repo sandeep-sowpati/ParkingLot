@@ -1,4 +1,10 @@
 package com.design.entities;
 
-public class ParkingFloor {
+import java.util.List;
+
+public class ParkingFloor extends BaseModel{
+    private int floorNumber;
+    private Status status;
+    private List<ParkingSpot> parkingSpots;
+
 }
